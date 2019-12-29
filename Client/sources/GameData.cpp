@@ -34,6 +34,7 @@ void GameData::addPlayer(size_t playerId) {
 void GameData::removePlayer(size_t playerId) {
     auto it = m_players.find(playerId);
     if (it != m_players.end()) {
+        delete it->second;
         m_players.erase(it);
     }
 }
@@ -47,6 +48,7 @@ void GameData::addEnemy(size_t enemyId) {
 void GameData::removeEnemy(size_t enemyId) {
     auto it = m_enemies.find(enemyId);
     if (it != m_enemies.end()) {
+        delete it->second;
         m_enemies.erase(it);
     }
 }
@@ -61,8 +63,10 @@ void GameData::addBullet(size_t bulletId) {
 
 void GameData::removeBullet(size_t bulletId) {
     auto it = m_bullets.find(bulletId);
-    if (it != m_bullets.end())
+    if (it != m_bullets.end()) {
+        delete it->second;
         m_bullets.erase(it);
+    }
 }
 
 void GameData::addExplosion(const pos_t &position) {
@@ -77,10 +81,10 @@ void GameData::removeExplosions() {
     while (it != m_explosions.end()) {
         if ((*it)->isAnimationFinished()) {
             delete *it;
-            m_explosions.erase(it);
-        }
-        else
+            it = m_explosions.erase(it);
+        } else {
             it++;
+        }
     }
 }
 

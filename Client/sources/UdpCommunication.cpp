@@ -166,7 +166,7 @@ void UdpCommunication::handleCollision(const CollisionTrigger &msg) {
         m_gameData->removeBullet(secondId);
     //m_gameData->removePlayer(firstId);
     //m_gameData->removePlayer(secondId);
-    //m_gameData->addExplosion(msg.getPosition());
+    m_gameData->addExplosion(msg.getPosition());
 }
 
 void UdpCommunication::playerMove(float x, float y) {
