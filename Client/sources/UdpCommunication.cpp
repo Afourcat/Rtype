@@ -14,7 +14,8 @@ UdpCommunication::UdpCommunication(std::shared_ptr<GameData> gameData)
         , m_responses()
         , m_ioService()
         , m_socket(m_ioService)
-        , m_mutex() {
+        , m_mutex()
+        , m_moveCooldown(0.025){
 }
 
 void UdpCommunication::start() {
@@ -170,18 +171,28 @@ void UdpCommunication::handleCollision(const CollisionTrigger &msg) {
 }
 
 void UdpCommunication::playerMove(float x, float y) {
-    Direction dir = RIGHT;
+    Direction hDir = NO_MOVE;
+    Direction vDir = NO_MOVE;
 
     if (x == 0 && y == 0)
         return;
-    if (x < 0) {
-        dir = LEFT;
-    } else if (y < 0) {
-        dir = BOTTOM;
-    } else if (y > 0) {
-        dir = TOP;
-    }
-    sendMessage(DirectionState(dir));
+    if (x > 0)
+        hDir = RIGHT;
+    else if (x < 0)
+        hDir = LEFT;
+    if (y < 0)
+        vDir = BOTTOM;
+    else if (y > 0)
+        vDir = TOP;
+    m_moveCooldown -= static_cast<double>(m_clock.getElapsedTime().asSeconds());
+    m_clock.restart();
+    if (m_moveCooldown > 0)
+        return;
+    m_moveCooldown = 0.025;
+    if (hDir != NO_MOVE)
+        sendMessage(DirectionState(hDir));
+    if (vDir != NO_MOVE)
+        sendMessage(DirectionState(vDir));
 }
 
 void UdpCommunication::playerShot() {

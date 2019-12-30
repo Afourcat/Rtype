@@ -60,6 +60,9 @@ private:
     BoostUdp::socket m_socket;
     boost::thread m_responsesThread;
     boost::mutex m_mutex;
+
+    double m_moveCooldown;
+    sf::Clock m_clock;
 };
 
 #endif //R_TYPE_UDPCOMMUNICATION_HPP

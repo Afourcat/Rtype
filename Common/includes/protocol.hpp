@@ -234,6 +234,7 @@ enum Direction {
     RIGHT,
     TOP,
     BOTTOM,
+    NO_MOVE,
 };
 
 typedef struct {

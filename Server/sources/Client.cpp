@@ -18,7 +18,7 @@ Client::Client(boost::asio::io_context& context)
     , m_udpPort(0)
     , m_ipAddress()
     , m_isUdpRunning(false)
-    , m_velocity(20, 20)
+    , m_velocity(10, 10)
     , m_position(100, 100) {}
 
 Client::~Client() {}
