@@ -49,7 +49,11 @@ Transition GameState::update()
     }
     m_gameData->removeExplosions();
     for (auto &bullet : m_gameData->getBullets()) {
-        m_window->draw(*bullet.second);
+        if (bullet.second->isOutOfMap()) {
+            delete bullet.second;
+            m_gameData->removeBullet(bullet.first);
+        } else
+            m_window->draw(*bullet.second);
     }
     for (auto &enemy : m_gameData->getEnemies()) {
         enemy.second->move(enemy.second->getPosition());

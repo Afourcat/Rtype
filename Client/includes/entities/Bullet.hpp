@@ -19,9 +19,11 @@ class Bullet : public Entity {
         void setMovement(const sf::Vector2f &movement);
         void setMovement(const float &xMovement, const float &yMovement);
         void update(const float &deltaTime);
+        void checkPosition();
         bool isOutOfMap();
     private:
         sf::Vector2f m_movement;
+        size_t m_finished;
 };
 
 #endif /* !BULLET_HPP */

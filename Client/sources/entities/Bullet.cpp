@@ -8,9 +8,9 @@
 #include "entities/Bullet.hpp"
 #include <cmath>
 
-Bullet::Bullet(): Entity(), m_movement(0, 0) {}
+Bullet::Bullet(): Entity(), m_movement(0, 0), m_finished(0) {}
 
-Bullet::Bullet(const sf::Texture *texture): Entity(texture), m_movement(0, 0)
+Bullet::Bullet(const sf::Texture *texture): Entity(texture), m_movement(0, 0), m_finished(0)
 {
     m_sprite.setTextureRect(sf::IntRect(249, 85, 16, 12));
     m_sprite.setOrigin(16/2, 12/2);
@@ -47,11 +47,16 @@ void Bullet::update(const float &deltaTime)
     m_sprite.setPosition(m_position);
 }
 
+void Bullet::checkPosition()
+{
+    if (m_position.x >= 2900 && m_position.x <= 3000)
+        m_finished++;
+}
+
 bool Bullet::isOutOfMap()
 {
-    if (m_position.x <= -10 || m_position.x >= 1546)
-        return true;
-    if (m_position.y <= -10 || m_position.y >= 874)
+    this->checkPosition();
+    if (m_finished == 100)
         return true;
     return false;
 }
