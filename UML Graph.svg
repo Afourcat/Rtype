@@ -1,0 +1,498 @@
+<svg id="mermaid-1577907540805" width="11132.268685817719" xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="-10 -10 7428.179123878479 983.5"><style>
+
+
+
+#mermaid-1577907540805 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  color: #333; }
+
+#mermaid-1577907540805 .label text {
+  fill: #333; }
+
+#mermaid-1577907540805 .node rect,
+#mermaid-1577907540805 .node circle,
+#mermaid-1577907540805 .node ellipse,
+#mermaid-1577907540805 .node polygon {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1577907540805 .node .label {
+  text-align: center; }
+
+#mermaid-1577907540805 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1577907540805 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1577907540805 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1577907540805 .edgeLabel {
+  background-color: #e8e8e8;
+  text-align: center; }
+
+#mermaid-1577907540805 .cluster rect {
+  fill: #ffffde;
+  stroke: #aaaa33;
+  stroke-width: 1px; }
+
+#mermaid-1577907540805 .cluster text {
+  fill: #333; }
+
+#mermaid-1577907540805 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1577907540805 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1577907540805 text.actor {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1577907540805 .actor-line {
+  stroke: grey; }
+
+#mermaid-1577907540805 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1577907540805 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1577907540805 #arrowhead {
+  fill: #333; }
+
+#mermaid-1577907540805 .sequenceNumber {
+  fill: white; }
+
+#mermaid-1577907540805 #sequencenumber {
+  fill: #333; }
+
+#mermaid-1577907540805 #crosshead path {
+  fill: #333 !important;
+  stroke: #333 !important; }
+
+#mermaid-1577907540805 .messageText {
+  fill: #333;
+  stroke: none; }
+
+#mermaid-1577907540805 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1577907540805 .labelText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1577907540805 .loopText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1577907540805 .loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  stroke: #CCCCFF; }
+
+#mermaid-1577907540805 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1577907540805 .noteText {
+  fill: black;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 14px; }
+
+#mermaid-1577907540805 .activation0 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1577907540805 .activation1 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1577907540805 .activation2 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+
+#mermaid-1577907540805 .mermaid-main-font {
+  font-family: "trebuchet ms", verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1577907540805 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1577907540805 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1577907540805 .section2 {
+  fill: #fff400; }
+
+#mermaid-1577907540805 .section1,
+#mermaid-1577907540805 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1577907540805 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1577907540805 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1577907540805 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1577907540805 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1577907540805 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+
+#mermaid-1577907540805 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.3;
+  shape-rendering: crispEdges; }
+#mermaid-1577907540805   .grid .tick text {
+    font-family: 'trebuchet ms', verdana, arial;
+    font-family: var(--mermaid-font-family); }
+
+#mermaid-1577907540805 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1577907540805 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1577907540805 .task {
+  stroke-width: 2; }
+
+#mermaid-1577907540805 .taskText {
+  text-anchor: middle;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1577907540805 .taskText:not([font-size]) {
+  font-size: 11px; }
+
+#mermaid-1577907540805 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1577907540805 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1577907540805 .task.clickable {
+  cursor: pointer; }
+
+#mermaid-1577907540805 .taskText.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1577907540805 .taskTextOutsideLeft.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+#mermaid-1577907540805 .taskTextOutsideRight.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+
+#mermaid-1577907540805 .taskText0,
+#mermaid-1577907540805 .taskText1,
+#mermaid-1577907540805 .taskText2,
+#mermaid-1577907540805 .taskText3 {
+  fill: white; }
+
+#mermaid-1577907540805 .task0,
+#mermaid-1577907540805 .task1,
+#mermaid-1577907540805 .task2,
+#mermaid-1577907540805 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1577907540805 .taskTextOutside0,
+#mermaid-1577907540805 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1577907540805 .taskTextOutside1,
+#mermaid-1577907540805 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1577907540805 .active0,
+#mermaid-1577907540805 .active1,
+#mermaid-1577907540805 .active2,
+#mermaid-1577907540805 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1577907540805 .activeText0,
+#mermaid-1577907540805 .activeText1,
+#mermaid-1577907540805 .activeText2,
+#mermaid-1577907540805 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1577907540805 .done0,
+#mermaid-1577907540805 .done1,
+#mermaid-1577907540805 .done2,
+#mermaid-1577907540805 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1577907540805 .doneText0,
+#mermaid-1577907540805 .doneText1,
+#mermaid-1577907540805 .doneText2,
+#mermaid-1577907540805 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1577907540805 .crit0,
+#mermaid-1577907540805 .crit1,
+#mermaid-1577907540805 .crit2,
+#mermaid-1577907540805 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1577907540805 .activeCrit0,
+#mermaid-1577907540805 .activeCrit1,
+#mermaid-1577907540805 .activeCrit2,
+#mermaid-1577907540805 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1577907540805 .doneCrit0,
+#mermaid-1577907540805 .doneCrit1,
+#mermaid-1577907540805 .doneCrit2,
+#mermaid-1577907540805 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1577907540805 .milestone {
+  transform: rotate(45deg) scale(0.8, 0.8); }
+
+#mermaid-1577907540805 .milestoneText {
+  font-style: italic; }
+
+#mermaid-1577907540805 .doneCritText0,
+#mermaid-1577907540805 .doneCritText1,
+#mermaid-1577907540805 .doneCritText2,
+#mermaid-1577907540805 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1577907540805 .activeCritText0,
+#mermaid-1577907540805 .activeCritText1,
+#mermaid-1577907540805 .activeCritText2,
+#mermaid-1577907540805 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1577907540805 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1577907540805 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family);
+  font-size: 10px; }
+#mermaid-1577907540805   g.classGroup text .title {
+    font-weight: bolder; }
+
+#mermaid-1577907540805 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1577907540805 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1577907540805 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1577907540805 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1577907540805 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1577907540805 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1577907540805 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1577907540805 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1577907540805 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1577907540805 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1577907540805 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1577907540805 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1577907540805 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1577907540805 .commit-id,
+#mermaid-1577907540805 .commit-msg,
+#mermaid-1577907540805 .branch-label {
+  fill: lightgrey;
+  color: lightgrey;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1577907540805 .pieTitleText {
+  text-anchor: middle;
+  font-size: 25px;
+  fill: black;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1577907540805 .slice {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1577907540805 g.stateGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-size: 10px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+#mermaid-1577907540805 g.stateGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-size: 10px; }
+
+#mermaid-1577907540805 g.stateGroup .state-title {
+  font-weight: bolder;
+  fill: black; }
+
+#mermaid-1577907540805 g.stateGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1577907540805 g.stateGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1577907540805 .transition {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1577907540805 .stateGroup .composit {
+  fill: white;
+  border-bottom: 1px; }
+
+#mermaid-1577907540805 .stateGroup .alt-composit {
+  fill: #e0e0e0;
+  border-bottom: 1px; }
+
+#mermaid-1577907540805 .state-note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+#mermaid-1577907540805   .state-note text {
+    fill: black;
+    stroke: none;
+    font-size: 10px; }
+
+#mermaid-1577907540805 .stateLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1577907540805 .stateLabel text {
+  fill: black;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-family: var(--mermaid-font-family); }
+
+:root {
+  --mermaid-font-family: '"trebuchet ms", verdana, arial';
+  --mermaid-font-family: "Comic Sans MS", "Comic Sans", cursive; }
+
+:root { --mermaid-font-family: "trebuchet ms", verdana, arial;}</style><style>#mermaid-1577907540805 {
+    color: rgb(46, 52, 54);
+    font: ;
+  }</style><g></g><defs><marker id="extensionStart" class="extension" refX="0" refY="7" markerWidth="190" markerHeight="240" orient="auto"><path d="M 1,7 L18,13 V 1 Z"></path></marker></defs><defs><marker id="extensionEnd" refX="19" refY="7" markerWidth="20" markerHeight="28" orient="auto"><path d="M 1,1 V 13 L18,7 Z"></path></marker></defs><defs><marker id="compositionStart" class="extension" refX="0" refY="7" markerWidth="190" markerHeight="240" orient="auto"><path d="M 18,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="compositionEnd" refX="19" refY="7" markerWidth="20" markerHeight="28" orient="auto"><path d="M 18,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="aggregationStart" class="extension" refX="0" refY="7" markerWidth="190" markerHeight="240" orient="auto"><path d="M 18,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="aggregationEnd" refX="19" refY="7" markerWidth="20" markerHeight="28" orient="auto"><path d="M 18,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="dependencyStart" class="extension" refX="0" refY="7" markerWidth="190" markerHeight="240" orient="auto"><path d="M 5,7 L9,13 L1,7 L9,1 Z"></path></marker></defs><defs><marker id="dependencyEnd" refX="19" refY="7" markerWidth="20" markerHeight="28" orient="auto"><path d="M 18,7 L9,13 L14,7 L9,1 Z"></path></marker></defs><g id="classId1182" class="classGroup" transform="translate(3884.0791625976562,372 )"><rect x="0" y="0" width="178.21665954589844" height="59"></rect><text y="15" x="0"><tspan class="title" x="57.97499656677246">EntityBuilder</tspan></text><line x1="0" y1="22" y2="22" x2="178.21665954589844"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="178.21665954589844"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void EntityBuilder()</tspan><tspan x="5" dy="10">+Entity create(const EntityType type)</tspan></text></g><g id="classId1183" class="classGroup" transform="translate(4180.874979972839,711 )"><rect x="0" y="0" width="282.26666259765625" height="171"></rect><text y="15" x="0"><tspan class="title" x="127.23333168029785">Entity</tspan></text><line x1="0" y1="22" y2="22" x2="282.26666259765625"></line><text x="5" y="32" fill="white" class="classText"><tspan x="5">+sf_Vector2f m_position</tspan></text><line x1="0" y1="39" y2="39" x2="282.26666259765625"></line><text x="5" y="54" fill="white" class="classText"><tspan x="5">+void Entity()</tspan><tspan x="5" dy="10">+void Entity(const sf_Texture texture)</tspan><tspan x="5" dy="10">+void setTexture(const sf_Texture texture)</tspan><tspan x="5" dy="10">+void move(const sf_Vector2f offset)</tspan><tspan x="5" dy="10">+void draw(sf_RenderTarget target, sf_RenderStates states)</tspan><tspan x="5" dy="10">+void Entity(size_t id, Position position, Position velocity)</tspan><tspan x="5" dy="10">+void Entity(const Entity other)</tspan><tspan x="5" dy="10">+Entity operator=(const Entity other)</tspan><tspan x="5" dy="10">+void move(Direction dir, float elapsedTime)</tspan><tspan x="5" dy="10">+size_t getId()</tspan><tspan x="5" dy="10">+const Position getPosition()</tspan><tspan x="5" dy="10">+const Position getVelocity()</tspan></text></g><g id="classId1184" class="classGroup" transform="translate(4160.308319091797,547 )"><rect x="0" y="0" width="219.98333740234375" height="99"></rect><text y="15" x="0"><tspan class="title" x="99.15000247955322">Ship</tspan></text><line x1="0" y1="22" y2="22" x2="219.98333740234375"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="219.98333740234375"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void Ship()</tspan><tspan x="5" dy="10">+void Ship(const sf_Texture texture)</tspan><tspan x="5" dy="10">+void setTexture(const sf_Texture texture)</tspan><tspan x="5" dy="10">+bool isShotReady()</tspan><tspan x="5" dy="10">+void shot(std_vector&lt;Bullet&gt; bullets)</tspan><tspan x="5" dy="10">+void setShotPatern(const ShotPatern patern)</tspan></text></g><g id="classId1185" class="classGroup" transform="translate(3838.1416625976562,557 )"><rect x="0" y="0" width="272.1666564941406" height="79"></rect><text y="15" x="0"><tspan class="title" x="119.68332862854004">Enemy</tspan></text><line x1="0" y1="22" y2="22" x2="272.1666564941406"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="272.1666564941406"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void Enemy(size_t id, Position position, Position velocity)</tspan><tspan x="5" dy="10">+void Enemy()</tspan><tspan x="5" dy="10">+void Enemy(const sf_Texture texture)</tspan><tspan x="5" dy="10">+void setTexture(const sf_Texture texture)</tspan></text></g><g id="classId1186" class="classGroup" transform="translate(3473.6416625976562,532 )"><rect x="0" y="0" width="314.5" height="129"></rect><text y="15" x="0"><tspan class="title" x="143.35000038146973">Bullet</tspan></text><line x1="0" y1="22" y2="22" x2="314.5"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="314.5"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void Bullet(size_t id, Position position, Position velocity)</tspan><tspan x="5" dy="10">+void Bullet()</tspan><tspan x="5" dy="10">+void update(float elapsedTime)</tspan><tspan x="5" dy="10">+void Bullet(const sf_Texture texture)</tspan><tspan x="5" dy="10">+void setTexture(const sf_Texture texture)</tspan><tspan x="5" dy="10">+void setMovement(const sf_Vector2f movement)</tspan><tspan x="5" dy="10">+void setMovement(const float xMovement, const float yMovement)</tspan><tspan x="5" dy="10">+void update(const float deltaTime)</tspan><tspan x="5" dy="10">+bool isOutOfMap()</tspan></text></g><g id="classId1187" class="classGroup" transform="translate(3222.5916595458984,552 )"><rect x="0" y="0" width="201.0500030517578" height="89"></rect><text y="15" x="0"><tspan class="title" x="76.60833549499512">Explosion</tspan></text><line x1="0" y1="22" y2="22" x2="201.0500030517578"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="201.0500030517578"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void Explosion()</tspan><tspan x="5" dy="10">+void Explosion(const sf_Texture texture)</tspan><tspan x="5" dy="10">+void setTexture(const sf_Texture texture)</tspan><tspan x="5" dy="10">+void update()</tspan><tspan x="5" dy="10">+bool isAnimationFinished()</tspan></text></g><g id="classId1188" class="classGroup" transform="translate(4353.120812416077,932 )"><rect x="0" y="0" width="68.95000076293945" height="31.5"></rect><text y="15" x="0"><tspan class="title" x="4.999998092651367">sf_Drawable</tspan></text><line x1="0" y1="22" y2="22" x2="68.94999694824219"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="68.94999694824219"></line><text x="5" y="42" fill="white" class="classText"></text></g><g id="classId1189" class="classGroup" transform="translate(4209.720810890198,932 )"><rect x="0" y="0" width="93.4000015258789" height="31.5"></rect><text y="15" x="0"><tspan class="title" x="5">sf_Transformable</tspan></text><line x1="0" y1="22" y2="22" x2="93.4000015258789"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="93.4000015258789"></line><text x="5" y="42" fill="white" class="classText"></text></g><g id="classId1190" class="classGroup" transform="translate(3370.312488555908,0 )"><rect x="0" y="0" width="351.2166748046875" height="271"></rect><text y="15" x="0"><tspan class="title" x="150.8666706085205">GameData</tspan></text><line x1="0" y1="22" y2="22" x2="351.2166748046875"></line><text x="5" y="32" fill="white" class="classText"><tspan x="5">+bool m_gameRunning</tspan></text><line x1="0" y1="39" y2="39" x2="351.2166748046875"></line><text x="5" y="54" fill="white" class="classText"><tspan x="5">+void GameData(UserData userData)</tspan><tspan x="5" dy="10">+void GameData()</tspan><tspan x="5" dy="10">+static std_shared_ptr&lt;GameData&gt; from(const InputOptionsHandler inputs)</tspan><tspan x="5" dy="10">+void addPlayer(size_t playerId)</tspan><tspan x="5" dy="10">+void removePlayer(size_t playerId)</tspan><tspan x="5" dy="10">+std_map&lt;size_t, Ship&gt; getPlayers()</tspan><tspan x="5" dy="10">+void addEnemy(size_t enemyId)</tspan><tspan x="5" dy="10">+void removeEnemy(size_t enemyId)</tspan><tspan x="5" dy="10">+std_map&lt;size_t, Enemy&gt; getEnemies()</tspan><tspan x="5" dy="10">+void addBullet(size_t bulletId)</tspan><tspan x="5" dy="10">+void removeBullet(size_t bulletId)</tspan><tspan x="5" dy="10">+std_map&lt;size_t, Bullet&gt; getBullets()</tspan><tspan x="5" dy="10">+void addExplosion(const pos_t position)</tspan><tspan x="5" dy="10">+void removeExplosions()</tspan><tspan x="5" dy="10">+std_list&lt;Explosion&gt; getExplosions()</tspan><tspan x="5" dy="10">+void updateRoomInfo(size_t idGame, uint8_t maxPlayers)</tspan><tspan x="5" dy="10">+void setUserId(size_t userId)</tspan><tspan x="5" dy="10">+void setRemoteEndpoint(uint16_t port)</tspan><tspan x="5" dy="10">+size_t getUserId()</tspan><tspan x="5" dy="10">+const UserData getUserData()</tspan><tspan x="5" dy="10">+size_t getNumberPlayers()</tspan><tspan x="5" dy="10">+const std_optional&lt;BoostUdp_endpoint&gt; getRemoteEndpoint()</tspan></text></g><g id="classId1191" class="classGroup" transform="translate(2731.6333389282227,321 )"><rect x="0" y="0" width="776.1166381835938" height="161"></rect><text y="15" x="0"><tspan class="title" x="366.09998512268066">UserData</tspan></text><line x1="0" y1="22" y2="22" x2="776.1166381835938"></line><text x="5" y="32" fill="white" class="classText"><tspan x="5">+size_t m_id</tspan><tspan x="5" dy="10">+std_optional&lt;BoostUdp_endpoint&gt; m_remoteEndpoint</tspan></text><line x1="0" y1="49" y2="49" x2="776.1166381835938"></line><text x="5" y="64" fill="white" class="classText"><tspan x="5">+void UserData(uint16_t serverPort, uint16_t userPort, std_string remoteAddress, std_string localAddress, std_string nickname, std_string password, std_string roomName)</tspan><tspan x="5" dy="10">+void UserData()</tspan><tspan x="5" dy="10">+uint16_t getServerPort()</tspan><tspan x="5" dy="10">+uint16_t getUserPort()</tspan><tspan x="5" dy="10">+const std_string getRemoteIpAddress()</tspan><tspan x="5" dy="10">+const std_string getLocalIpAddress()</tspan><tspan x="5" dy="10">+const std_string getNickname()</tspan><tspan x="5" dy="10">+const std_string getPassword()</tspan><tspan x="5" dy="10">+const std_string getRoomName()</tspan><tspan x="5" dy="10">+const BoostUdp_endpoint getLocalEndpoint()</tspan></text></g><g id="classId1192" class="classGroup" transform="translate(4772.870818138123,101 )"><rect x="0" y="0" width="138.18333435058594" height="69"></rect><text y="15" x="0"><tspan class="title" x="55.191667556762695">Game</tspan></text><line x1="0" y1="22" y2="22" x2="138.18333435058594"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="138.18333435058594"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void Game(int ac, char av)</tspan><tspan x="5" dy="10">+void Game()</tspan><tspan x="5" dy="10">+void run()</tspan></text></g><g id="classId1193" class="classGroup" transform="translate(5181.699992179871,327 )"><rect x="0" y="0" width="220.51666259765625" height="149"></rect><text y="15" x="0"><tspan class="title" x="60.49166488647461">InputOptionsHandler</tspan></text><line x1="0" y1="22" y2="22" x2="220.51666259765625"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="220.51666259765625"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void InputOptionsHandler(int argc, char argv)</tspan><tspan x="5" dy="10">+void InputOptionsHandler()</tspan><tspan x="5" dy="10">+std_string getNickname()</tspan><tspan x="5" dy="10">+std_string getPassword()</tspan><tspan x="5" dy="10">+std_string getSessionName()</tspan><tspan x="5" dy="10">+std_string getLocalAddress()</tspan><tspan x="5" dy="10">+std_string getRemoteAddress()</tspan><tspan x="5" dy="10">+short getClientPort()</tspan><tspan x="5" dy="10">+short getServerPort()</tspan><tspan x="5" dy="10">+bool isCreateSession()</tspan><tspan x="5" dy="10">+bool isAskingForHelp()</tspan></text></g><g id="classId1194" class="classGroup" transform="translate(4765.999979972839,372 )"><rect x="0" y="0" width="365.70001220703125" height="59"></rect><text y="15" x="0"><tspan class="title" x="153.38333892822266">StateBuilder</tspan></text><line x1="0" y1="22" y2="22" x2="365.70001220703125"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="365.70001220703125"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void StateBuilder()</tspan><tspan x="5" dy="10">+State createState(States stateName, std_shared_ptr&lt;GameData&gt; gameData)</tspan></text></g><g id="classId1195" class="classGroup" transform="translate(4576.149973869324,372 )"><rect x="0" y="0" width="139.85000610351562" height="59"></rect><text y="15" x="0"><tspan class="title" x="44.3416690826416">StateStack</tspan></text><line x1="0" y1="22" y2="22" x2="139.85000610351562"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="139.85000610351562"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void StateStack()</tspan><tspan x="5" dy="10">+void swap(State newState)</tspan></text></g><g id="classId1196" class="classGroup" transform="translate(0,98.75 )"><rect x="0" y="0" width="165.6999969482422" height="73.5"></rect><text y="15" x="0"><tspan class="title" x="5">InputOptionsHandler_OptionInfo</tspan></text><line x1="0" y1="22" y2="22" x2="165.6999969482422"></line><text x="5" y="32" fill="white" class="classText"><tspan x="5">+OptionId id</tspan><tspan x="5" dy="10">+std_string shortName</tspan><tspan x="5" dy="10">+std_string longName</tspan><tspan x="5" dy="10">+bool hasValue</tspan></text><line x1="0" y1="69" y2="69" x2="165.6999969482422"></line><text x="5" y="84" fill="white" class="classText"></text></g><g id="classId1197" class="classGroup" transform="translate(57.27499771118164,385.75 )"><rect x="0" y="0" width="51.150001525878906" height="31.5"></rect><text y="15" x="0"><tspan class="title" x="5">OptionId</tspan></text><line x1="0" y1="22" y2="22" x2="51.150001525878906"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="51.150001525878906"></line><text x="5" y="42" fill="white" class="classText"></text></g><g id="classId1198" class="classGroup" transform="translate(228.5083293914795,362 )"><rect x="0" y="0" width="268.8500061035156" height="79"></rect><text y="15" x="0"><tspan class="title" x="100.23333740234375">ServerHandler</tspan></text><line x1="0" y1="22" y2="22" x2="268.8500061035156"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="268.8500061035156"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void ServerHandler(const UserData userData, T socket)</tspan><tspan x="5" dy="10">+void ServerHandler()</tspan><tspan x="5" dy="10">+std_unique_ptr&lt;Message&gt; receiveMessage()</tspan><tspan x="5" dy="10">+void sendMessage(const Message msg)</tspan></text></g><g id="classId1199" class="classGroup" transform="translate(6038.437485694885,532 )"><rect x="0" y="0" width="526.5333251953125" height="129"></rect><text y="15" x="0"><tspan class="title" x="251.03332901000977">State</tspan></text><line x1="0" y1="22" y2="22" x2="526.5333251953125"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="526.5333251953125"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void State(std_shared_ptr&lt;GameData&gt; gameData)</tspan><tspan x="5" dy="10">+void State()</tspan><tspan x="5" dy="10">+void linkToGame(boost_shared_ptr&lt;UdpCommunication&gt; udpHandler, sf_RenderWindow window, float deltaTime)</tspan><tspan x="5" dy="10">+void onStart()</tspan><tspan x="5" dy="10">+void onStop()</tspan><tspan x="5" dy="10">+void onPause()</tspan><tspan x="5" dy="10">+void onResume()</tspan><tspan x="5" dy="10">+Transition update()</tspan><tspan x="5" dy="10">+Transition handleEvent(sf_Event event)</tspan></text></g><g id="classId1200" class="classGroup" transform="translate(215.6999969482422,86 )"><rect x="0" y="0" width="434.6333312988281" height="99"></rect><text y="15" x="0"><tspan class="title" x="170.9916648864746">TcpCommunication</tspan></text><line x1="0" y1="22" y2="22" x2="434.6333312988281"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="434.6333312988281"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+static boost_shared_ptr&lt;TcpCommunication&gt; create(std_shared_ptr&lt;GameData&gt; gameData)</tspan><tspan x="5" dy="10">+void TcpCommunication()</tspan><tspan x="5" dy="10">+void start()</tspan><tspan x="5" dy="10">+void stop()</tspan><tspan x="5" dy="10">+void update()</tspan><tspan x="5" dy="10">+void askServerConnection(bool isCreateRoom)</tspan></text></g><g id="classId1201" class="classGroup" transform="translate(1167.899990081787,385.75 )"><rect x="0" y="0" width="92.8499984741211" height="31.5"></rect><text y="15" x="0"><tspan class="title" x="5.083332061767578">BoostTcp_socket</tspan></text><line x1="0" y1="22" y2="22" x2="92.8499984741211"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="92.8499984741211"></line><text x="5" y="42" fill="white" class="classText"></text></g><g id="classId1202" class="classGroup" transform="translate(1861.4666595458984,101 )"><rect x="0" y="0" width="305.0833435058594" height="69"></rect><text y="15" x="0"><tspan class="title" x="117.60833740234375">TextureBuilder</tspan></text><line x1="0" y1="22" y2="22" x2="305.0833435058594"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="305.0833435058594"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void TextureBuilder()</tspan><tspan x="5" dy="10">+sf_Texture getTexture(const std_string name)</tspan><tspan x="5" dy="10">+void createTexture(const std_string path, const std_string name)</tspan></text></g><g id="classId1203" class="classGroup" transform="translate(2216.550003051758,101 )"><rect x="0" y="0" width="283.75" height="69"></rect><text y="15" x="0"><tspan class="title" x="106.0999984741211">TextureFactory</tspan></text><line x1="0" y1="22" y2="22" x2="283.75"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="283.75"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void TextureFactory()</tspan><tspan x="5" dy="10">+void addTexture(const std_string key, const std_string path)</tspan><tspan x="5" dy="10">+const T getTexture(const std_string key)</tspan></text></g><g id="classId1204" class="classGroup" transform="translate(720.3333282470703,81 )"><rect x="0" y="0" width="437.4166564941406" height="109"></rect><text y="15" x="0"><tspan class="title" x="171.1833267211914">UdpCommunication</tspan></text><line x1="0" y1="22" y2="22" x2="437.4166564941406"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="437.4166564941406"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+static boost_shared_ptr&lt;UdpCommunication&gt; create(std_shared_ptr&lt;GameData&gt; gameData)</tspan><tspan x="5" dy="10">+void UdpCommunication()</tspan><tspan x="5" dy="10">+void start()</tspan><tspan x="5" dy="10">+void stop()</tspan><tspan x="5" dy="10">+void update()</tspan><tspan x="5" dy="10">+void playerMove(float x, float y)</tspan><tspan x="5" dy="10">+void playerShot()</tspan></text></g><g id="classId1205" class="classGroup" transform="translate(809.3916568756104,385.75 )"><rect x="0" y="0" width="95.25" height="31.5"></rect><text y="15" x="0"><tspan class="title" x="5.083332061767578">BoostUdp_socket</tspan></text><line x1="0" y1="22" y2="22" x2="95.25"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="95.25"></line><text x="5" y="42" fill="white" class="classText"></text></g><g id="classId1206" class="classGroup" transform="translate(3066.7916564941406,580.75 )"><rect x="0" y="0" width="105.80000305175781" height="31.5"></rect><text y="15" x="0"><tspan class="title" x="5.083335876464844">BoostUdp_endpoint</tspan></text><line x1="0" y1="22" y2="22" x2="105.80000305175781"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="105.80000305175781"></line><text x="5" y="42" fill="white" class="classText"></text></g><g id="classId1207" class="classGroup" transform="translate(2550.300003051758,101 )"><rect x="0" y="0" width="159.86666870117188" height="69"></rect><text y="15" x="0"><tspan class="title" x="52.68333435058594">Application</tspan></text><line x1="0" y1="22" y2="22" x2="159.86666870117188"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="159.86666870117188"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void Application(int ac, char av)</tspan><tspan x="5" dy="10">+void Application()</tspan><tspan x="5" dy="10">+void run()</tspan></text></g><g id="classId1208" class="classGroup" transform="translate(2578.833335876465,385.75 )"><rect x="0" y="0" width="102.80000305175781" height="31.5"></rect><text y="15" x="0"><tspan class="title" x="5.0583343505859375">BoostTcp_acceptor</tspan></text><line x1="0" y1="22" y2="22" x2="102.80000305175781"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="102.80000305175781"></line><text x="5" y="42" fill="white" class="classText"></text></g><g id="classId1209" class="classGroup" transform="translate(5678.845818519592,377 )"><rect x="0" y="0" width="109.23332977294922" height="49"></rect><text y="15" x="0"><tspan class="title" x="22.091663360595703">ClientHandler</tspan></text><line x1="0" y1="22" y2="22" x2="109.23332977294922"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="109.23332977294922"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void ClientHandler()</tspan></text></g><g id="classId1210" class="classGroup" transform="translate(1227.749984741211,21 )"><rect x="0" y="0" width="563.7166748046875" height="229"></rect><text y="15" x="0"><tspan class="title" x="267.9583377838135">Client</tspan></text><line x1="0" y1="22" y2="22" x2="563.7166748046875"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="563.7166748046875"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+static boost_shared_ptr&lt;Client&gt; create(boost_asio_io_context context)</tspan><tspan x="5" dy="10">+void start()</tspan><tspan x="5" dy="10">+void stop()</tspan><tspan x="5" dy="10">+void update()</tspan><tspan x="5" dy="10">+BoostTcp_socket getSocket()</tspan><tspan x="5" dy="10">+size_t getId()</tspan><tspan x="5" dy="10">+const std_string getNickname()</tspan><tspan x="5" dy="10">+void setHandler(boost_shared_ptr&lt;ClientHandler&gt; handler)</tspan><tspan x="5" dy="10">+void setUdpSocket(uint16_t port)</tspan><tspan x="5" dy="10">+const Position getPosition()</tspan><tspan x="5" dy="10">+const Position getVelocity()</tspan><tspan x="5" dy="10">+void sendPlayerJoinGame(size_t playerId, std_string nickname)</tspan><tspan x="5" dy="10">+void sendPlayerQuitGame(size_t playerId)</tspan><tspan x="5" dy="10">+void sendPlayerState()</tspan><tspan x="5" dy="10">+void sendFriendState(size_t id, const Position position, const Position velocity)</tspan><tspan x="5" dy="10">+void sendEntityState(size_t id, const Position position, const Position velocity, EntityType type)</tspan><tspan x="5" dy="10">+void triggerCollision(size_t firstEntity, EntityType firstType, size_t secondEntity, EntityType secondType, const Position pos)</tspan><tspan x="5" dy="10">+void startGame()</tspan><tspan x="5" dy="10">+void Client()</tspan></text></g><g id="classId1211" class="classGroup" transform="translate(1522.0249881744385,366 )"><rect x="0" y="0" width="143.18333435058594" height="71"></rect><text y="15" x="0"><tspan class="title" x="51.85000038146973">Position</tspan></text><line x1="0" y1="22" y2="22" x2="143.18333435058594"></line><text x="5" y="32" fill="white" class="classText"><tspan x="5">+float m_x</tspan><tspan x="5" dy="10">+float m_y</tspan></text><line x1="0" y1="49" y2="49" x2="143.18333435058594"></line><text x="5" y="64" fill="white" class="classText"><tspan x="5">+void Position(float x, float y)</tspan></text></g><g id="classId1212" class="classGroup" transform="translate(5156.9416608810425,61 )"><rect x="0" y="0" width="310.0333251953125" height="149"></rect><text y="15" x="0"><tspan class="title" x="126.94999504089355">GameRoom</tspan></text><line x1="0" y1="22" y2="22" x2="310.0333251953125"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="310.0333251953125"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void GameRoom(size_t id, std_string name, uint8_t maxPLayers)</tspan><tspan x="5" dy="10">+void GameRoom()</tspan><tspan x="5" dy="10">+void addPlayer(const boost_shared_ptr&lt;Client&gt; newClient)</tspan><tspan x="5" dy="10">+void addBullet(size_t id, const Position startPos)</tspan><tspan x="5" dy="10">+void removePlayer(size_t idPlayer)</tspan><tspan x="5" dy="10">+void stop()</tspan><tspan x="5" dy="10">+size_t getId()</tspan><tspan x="5" dy="10">+const std_string getName()</tspan><tspan x="5" dy="10">+size_t getPlayerCount()</tspan><tspan x="5" dy="10">+size_t getMaxPlayers()</tspan><tspan x="5" dy="10">+float getElapsedTime()</tspan></text></g><g id="classId1213" class="classGroup" transform="translate(5516.974986076355,81 )"><rect x="0" y="0" width="300.01666259765625" height="109"></rect><text y="15" x="0"><tspan class="title" x="134.9916648864746">Lobby</tspan></text><line x1="0" y1="22" y2="22" x2="300.01666259765625"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="300.01666259765625"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void Lobby()</tspan><tspan x="5" dy="10">+void addClient(const boost_shared_ptr&lt;Client&gt; client)</tspan><tspan x="5" dy="10">+size_t createGameRoom(std_string name, uint8_t maxPlayers)</tspan><tspan x="5" dy="10">+void joinGameRoom(size_t idPlayer, size_t idRoom)</tspan><tspan x="5" dy="10">+void quitGameRoom(size_t idPlayer, size_t idRoom)</tspan><tspan x="5" dy="10">+size_t getRoomId(const std_string name)</tspan><tspan x="5" dy="10">+RoomInfo getRoomInfo(const std_string name, size_t idPlayer)</tspan></text></g><g id="classId1214" class="classGroup" transform="translate(5545.4291524887085,385.75 )"><rect x="0" y="0" width="56.68333435058594" height="31.5"></rect><text y="15" x="0"><tspan class="title" x="5">RoomInfo</tspan></text><line x1="0" y1="22" y2="22" x2="56.68333435058594"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="56.68333435058594"></line><text x="5" y="42" fill="white" class="classText"></text></g><g id="classId1215" class="classGroup" transform="translate(5866.991648674011,108.75 )"><rect x="0" y="0" width="123.71666717529297" height="53.5"></rect><text y="15" x="0"><tspan class="title" x="46.84166717529297">Player</tspan></text><line x1="0" y1="22" y2="22" x2="123.71666717529297"></line><text x="5" y="32" fill="white" class="classText"><tspan x="5">+uint16_t m_idPlayer</tspan><tspan x="5" dy="10">+std_string m_nickname</tspan></text><line x1="0" y1="49" y2="49" x2="123.71666717529297"></line><text x="5" y="64" fill="white" class="classText"></text></g><g id="classId1216" class="classGroup" transform="translate(5218.112483024597,547 )"><rect x="0" y="0" width="279.76666259765625" height="99"></rect><text y="15" x="0"><tspan class="title" x="119.0333309173584">Spawner</tspan></text><line x1="0" y1="22" y2="22" x2="279.76666259765625"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="279.76666259765625"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void Spawner(Position position, Position velocity, size_t id)</tspan><tspan x="5" dy="10">+void Spawner()</tspan><tspan x="5" dy="10">+void update(float elapsedTime)</tspan><tspan x="5" dy="10">+void stop()</tspan><tspan x="5" dy="10">+std_tuple&lt;bool, size_t&gt; isCollideWith(const Position pos)</tspan><tspan x="5" dy="10">+const std_map&lt;size_t, Enemy&gt; getEnemies()</tspan></text></g><g id="classId1217" class="classGroup" transform="translate(3740.970827102661,780.75 )"><rect x="0" y="0" width="63.36666488647461" height="31.5"></rect><text y="15" x="0"><tspan class="title" x="5">ShotPatern</tspan></text><line x1="0" y1="22" y2="22" x2="63.36666488647461"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="63.36666488647461"></line><text x="5" y="42" fill="white" class="classText"></text></g><g id="classId1218" class="classGroup" transform="translate(5838.0791482925415,342 )"><rect x="0" y="0" width="276.1166687011719" height="119"></rect><text y="15" x="0"><tspan class="title" x="110.54166793823242">EmptyState</tspan></text><line x1="0" y1="22" y2="22" x2="276.1166687011719"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="276.1166687011719"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void EmptyState(std_shared_ptr&lt;GameData&gt; gameData)</tspan><tspan x="5" dy="10">+void EmptyState()</tspan><tspan x="5" dy="10">+void onStart()</tspan><tspan x="5" dy="10">+void onStop()</tspan><tspan x="5" dy="10">+void onPause()</tspan><tspan x="5" dy="10">+void onResume()</tspan><tspan x="5" dy="10">+Transition update()</tspan><tspan x="5" dy="10">+Transition handleEvent(sf_Event event)</tspan></text></g><g id="classId1219" class="classGroup" transform="translate(6164.195816993713,342 )"><rect x="0" y="0" width="275.01666259765625" height="119"></rect><text y="15" x="0"><tspan class="title" x="111.37499809265137">GameState</tspan></text><line x1="0" y1="22" y2="22" x2="275.01666259765625"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="275.01666259765625"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void GameState(std_shared_ptr&lt;GameData&gt; gameData)</tspan><tspan x="5" dy="10">+void GameState()</tspan><tspan x="5" dy="10">+void onStart()</tspan><tspan x="5" dy="10">+void onStop()</tspan><tspan x="5" dy="10">+void onPause()</tspan><tspan x="5" dy="10">+void onResume()</tspan><tspan x="5" dy="10">+Transition update()</tspan><tspan x="5" dy="10">+Transition handleEvent(sf_Event envent)</tspan></text></g><g id="classId1220" class="classGroup" transform="translate(6489.21247959137,342 )"><rect x="0" y="0" width="270.0333251953125" height="119"></rect><text y="15" x="0"><tspan class="title" x="110.82499504089355">LoadState</tspan></text><line x1="0" y1="22" y2="22" x2="270.0333251953125"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="270.0333251953125"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void LoadState(std_shared_ptr&lt;GameData&gt; gameData)</tspan><tspan x="5" dy="10">+void LoadState()</tspan><tspan x="5" dy="10">+void onStart()</tspan><tspan x="5" dy="10">+void onStop()</tspan><tspan x="5" dy="10">+void onPause()</tspan><tspan x="5" dy="10">+void onResume()</tspan><tspan x="5" dy="10">+Transition update()</tspan><tspan x="5" dy="10">+Transition handleEvent(sf_Event event)</tspan></text></g><g id="classId1221" class="classGroup" transform="translate(6809.245804786682,342 )"><rect x="0" y="0" width="272.79998779296875" height="119"></rect><text y="15" x="0"><tspan class="title" x="111.09999465942383">MenuState</tspan></text><line x1="0" y1="22" y2="22" x2="272.79998779296875"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="272.79998779296875"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void MenuState(std_shared_ptr&lt;GameData&gt; gameData)</tspan><tspan x="5" dy="10">+void MenuState()</tspan><tspan x="5" dy="10">+void onStart()</tspan><tspan x="5" dy="10">+void onStop()</tspan><tspan x="5" dy="10">+void onPause()</tspan><tspan x="5" dy="10">+void onResume()</tspan><tspan x="5" dy="10">+Transition update()</tspan><tspan x="5" dy="10">+Transition handleEvent(sf_Event event)</tspan></text></g><g id="classId1222" class="classGroup" transform="translate(7132.045792579651,342 )"><rect x="0" y="0" width="276.1333312988281" height="119"></rect><text y="15" x="0"><tspan class="title" x="111.09166526794434">PauseState</tspan></text><line x1="0" y1="22" y2="22" x2="276.1333312988281"></line><text x="5" y="32" fill="white" class="classText"></text><line x1="0" y1="27" y2="27" x2="276.1333312988281"></line><text x="5" y="42" fill="white" class="classText"><tspan x="5">+void PauseState(std_shared_ptr&lt;GameData&gt; gameData)</tspan><tspan x="5" dy="10">+void PauseState()</tspan><tspan x="5" dy="10">+void onStart()</tspan><tspan x="5" dy="10">+void onStop()</tspan><tspan x="5" dy="10">+void onPause()</tspan><tspan x="5" dy="10">+void onResume()</tspan><tspan x="5" dy="10">+Transition update()</tspan><tspan x="5" dy="10">+Transition handleEvent(sf_Event event)</tspan></text></g><path d="M4062.2958221435547,422.7640584593528L4121.128461201985,436.80338204946065C4179.961100260417,450.8427056395685,4297.626378377278,478.92135281978426,4356.45901743571,507.8773430765588C4415.291656494141,536.8333333333334,4415.291656494141,566.6666666666666,4415.291656494141,596.5C4415.291656494141,626.3333333333334,4415.291656494141,656.1666666666666,4411.774184954832,675.25C4408.256713415522,694.3333333333334,4401.221770336905,702.6666666666666,4397.704298797596,706.8333333333334L4394.186827258287,711" id="edge948" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="4318.677734375" y="477.45330810546875" width="46.16666793823242" height="17"></rect><text class="label" x="4341.761177143705" y="489.4533080640622" fill="red" text-anchor="middle">produces</text></g><path d="M4056.266341801503,431L4091.9386161334137,443.6666666666667C4127.610890465326,456.3333333333333,4198.955439129147,481.6666666666667,4234.627713461058,501C4270.299987792969,520.3333333333334,4270.299987792969,533.6666666666666,4270.299987792969,540.3333333333334L4270.299987792969,547" id="edge949" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="4159.046875" y="463.69232177734375" width="46.16666793823242" height="17"></rect><text class="label" x="4182.130260151158" y="475.69230877352413" fill="red" text-anchor="middle">produces</text></g><path d="M3973.477598579009,431L3973.6021639566284,443.6666666666667C3973.7267293342484,456.3333333333333,3973.9758600894875,481.6666666666667,3974.1004254671066,502.6666666666667C3974.2249908447266,523.6666666666666,3974.2249908447266,540.3333333333334,3974.2249908447266,548.6666666666666L3974.2249908447266,557" id="edge950" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="3951.013916015625" y="481.998779296875" width="46.16666793823242" height="17"></rect><text class="label" x="3974.0971355435454" y="493.99879121648644" fill="red" text-anchor="middle">produces</text></g><path d="M3884.0791625976562,428.9643392450383L3841.8812459309897,441.97028270419855C3799.6833292643228,454.97622616335883,3715.2874959309897,480.9881130816794,3673.0895792643228,498.1607232075064C3630.8916625976562,515.3333333333334,3630.8916625976562,523.6666666666666,3630.8916625976562,527.8333333333334L3630.8916625976562,532" id="edge951" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="3722.456787109375" y="459.6639099121094" width="46.16666793823242" height="17"></rect><text class="label" x="3745.5399244011887" y="471.6639235181576" fill="red" text-anchor="middle">produces</text></g><path d="M3884.0791625976562,415.9613914952364L3790.5854123433433,431.134492912697C3697.09166208903,446.3075943301576,3510.104161580404,476.65379716507886,3416.6104113260903,499.3268985825394C3323.1166610717773,522,3323.1166610717773,537,3323.1166610717773,544.5L3323.1166610717773,552" id="edge952" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="3558.30517578125" y="453.0850524902344" width="46.16666793823242" height="17"></rect><text class="label" x="3581.3884873981265" y="465.0850634030302" fill="red" text-anchor="middle">produces</text></g><path d="M4372.757010071526,882L4375.230143541304,886.1666666666666C4377.703277011083,890.3333333333334,4382.649543950641,898.6666666666666,4385.122677420419,907C4387.595810890198,915.3333333333334,4387.595810890198,923.6666666666666,4387.595810890198,927.8333333333334L4387.595810890198,932" id="edge953" class="relation" marker-end="url(#extensionEnd)"></path><path d="M4271.259612471809,882L4268.786479002031,886.1666666666666C4266.313345532252,890.3333333333334,4261.367078592694,898.6666666666666,4258.893945122916,907C4256.420811653137,915.3333333333334,4256.420811653137,923.6666666666666,4256.420811653137,927.8333333333334L4256.420811653137,932" id="edge954" class="relation" marker-end="url(#extensionEnd)"></path><path d="M3721.5291633605957,201.46615268338016L3763.472218195597,217.2217939028168C3805.415273030599,232.97743512225347,3889.301382700602,264.48871756112675,3931.244437535604,292.91102544723003C3973.1874923706055,321.3333333333333,3973.1874923706055,346.6666666666667,3973.1874923706055,359.3333333333333L3973.1874923706055,372" id="edge955" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="3861.798095703125" y="250.0958251953125" width="42.266666412353516" height="17"></rect><text class="label" x="3882.931303595892" y="262.09583794594226" fill="red" text-anchor="middle">contains</text></g><path d="M3370.312488555908,201.62672307109835L3328.5423501332602,217.3556025592486C3286.772211710612,233.0844820473989,3203.231934865316,264.54224102369943,3161.4617964426675,284.4377871785164C3119.6916580200195,304.3333333333333,3119.6916580200195,312.6666666666667,3119.6916580200195,316.8333333333333L3119.6916580200195,321" id="edge956" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="3212.170654296875" y="241.2183837890625" width="42.266666412353516" height="17"></rect><text class="label" x="3233.303961445406" y="253.2183790518601" fill="red" text-anchor="middle">contains</text></g><path d="M4911.0541524887085,160.14292253645567L4974.5381809870405,182.78576878037973C5038.022209485372,205.42861502430378,5164.990266482036,250.7143075121519,5228.474294980367,278.52382042274263C5291.958323478699,306.3333333333333,5291.958323478699,316.6666666666667,5291.958323478699,321.8333333333333L5291.958323478699,327" id="edge957" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="5094.97216796875" y="221.27854919433594" width="42.266666412353516" height="17"></rect><text class="label" x="5116.105423064346" y="233.27855210488207" fill="red" text-anchor="middle">contains</text></g><path d="M4864.938303234421,170L4878.923583708077,191C4892.9088641817325,212,4920.879425129044,254,4934.864705602699,287.6666666666667C4948.849986076355,321.3333333333333,4948.849986076355,346.6666666666667,4948.849986076355,359.3333333333333L4948.849986076355,372" id="edge958" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="4906.82421875" y="252.62814331054688" width="42.266666412353516" height="17"></rect><text class="label" x="4927.957401785821" y="264.62813935496786" fill="red" text-anchor="middle">contains</text></g><path d="M4799.855824630951,170L4774.225683345973,191C4748.595542060994,212,4697.335259491038,254,4671.7051182060595,287.6666666666667C4646.0749769210815,321.3333333333333,4646.0749769210815,346.6666666666667,4646.0749769210815,359.3333333333333L4646.0749769210815,372" id="edge959" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="4672.4384765625" y="245.08355712890625" width="42.266666412353516" height="17"></rect><text class="label" x="4693.571827497056" y="257.08355974299457" fill="red" text-anchor="middle">contains</text></g><path d="M82.8499984741211,172.25L82.8499984741211,192.875C82.8499984741211,213.5,82.8499984741211,254.75,82.8499984741211,290.3333333333333C82.8499984741211,325.9166666666667,82.8499984741211,355.8333333333333,82.8499984741211,370.7916666666667L82.8499984741211,385.75" id="edge960" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="61.71666717529297" y="267" width="42.266666412353516" height="17"></rect><text class="label" x="82.8499984741211" y="279" fill="red" text-anchor="middle">contains</text></g><path d="M4948.849986076355,431L4948.849986076355,443.6666666666667C4948.849986076355,456.3333333333333,4948.849986076355,481.6666666666667,5130.447902679443,506.34720296533527C5312.045819282532,531.0277392640038,5675.2416524887085,555.0554785280076,5856.839569091797,567.0693481600096L6038.437485694885,579.0832177920114" id="edge961" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="5432.64306640625" y="528.5331420898438" width="46.16666793823242" height="17"></rect><text class="label" x="5455.726620703072" y="540.5331479667959" fill="red" text-anchor="middle">produces</text></g><path d="M4646.0749769210815,431L4646.0749769210815,443.6666666666667C4646.0749769210815,456.3333333333333,4646.0749769210815,481.6666666666667,4878.135395050049,506.8780551718221C5110.195813179016,532.0894436769776,5574.316649436951,557.178887353955,5806.377067565918,569.7236091924437L6038.437485694885,582.2683310309325" id="edge962" class="relation" marker-end="url(#extensionEnd)"></path><g class="classLabel"><rect class="box" x="5271.78662109375" y="530.5829467773438" width="65.04999923706055" height="17"></rect><text class="label" x="5304.311632991366" y="542.5829564596822" fill="red" text-anchor="middle">std_stack&lt;T&gt;</text></g><path d="M650.3333282470703,90.79950137079697L654.2222171359591,89.99958447566415C658.111106024848,89.19966758053131,665.8888838026256,87.59983379026566,670.7499949137368,86.79991689513282C675.611106024848,86,677.5555504692926,86,679.4999949137372,94.25C681.4444393581816,102.5,683.388883802626,119,683.388883802626,135.5C683.388883802626,152,681.4444393581816,168.5,679.4999949137372,176.75C677.5555504692926,185,675.611106024848,185,670.7499949137368,184.2000831048672C665.8888838026256,183.40016620973435,658.111106024848,181.80033241946867,654.2222171359591,181.00041552433586L650.3333282470703,180.20049862920303" id="edge963" class="relation" marker-end="url(#extensionEnd)"></path><g class="classLabel"><rect class="box" x="602.449951171875" y="123.5" width="165.76666259765625" height="17"></rect><text class="label" x="685.3333282470703" y="135.49999999999997" fill="red" text-anchor="middle">boost_enable_shared_from_this&lt;T&gt;</text></g><path d="M507.9644420302917,185L535.9752282828928,203.5C563.986014535494,222,620.0075870406962,259,729.9968450492788,293.5668693530545C839.9861030578613,328.133738706109,1003.9430465698242,360.26747741221806,1085.9215183258057,376.3343467652726L1167.899990081787,392.40121611832706" id="edge964" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="802.0054321289062" y="312.83184814453125" width="42.266666412353516" height="17"></rect><text class="label" x="823.1387759394572" y="324.8318498325851" fill="red" text-anchor="middle">contains</text></g><path d="M411.4021775967607,185L403.3240367378401,203.5C395.24589587891955,222,379.0896141610785,259,371.01147330215787,288.5C362.9333324432373,318,362.9333324432373,340,362.9333324432373,351L362.9333324432373,362" id="edge965" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="352.8288269042969" y="258.7425537109375" width="42.266666412353516" height="17"></rect><text class="label" x="373.9621541732814" y="270.7425545593816" fill="red" text-anchor="middle">contains</text></g><path d="M1157.749984741211,86.25391644712461L1161.6388736300999,85.37826370593717C1165.5277625189885,84.50261096474973,1173.3055402967664,82.75130548237486,1178.1666514078775,81.87565274118744C1183.0277625189885,81,1184.9722069634333,81,1186.9166514078777,90.08333333333333C1188.8610958523223,99.16666666666667,1190.8055402967666,117.33333333333333,1190.8055402967666,135.5C1190.8055402967666,153.66666666666666,1188.8610958523223,171.83333333333334,1186.9166514078777,180.91666666666666C1184.9722069634333,190,1183.0277625189885,190,1178.1666514078775,189.12434725881258C1173.3055402967664,188.24869451762515,1165.5277625189885,186.49738903525028,1161.6388736300999,185.62173629406286L1157.749984741211,184.7460835528754" id="edge966" class="relation" marker-end="url(#extensionEnd)"></path><g class="classLabel"><rect class="box" x="1109.86669921875" y="123.5" width="165.76666259765625" height="17"></rect><text class="label" x="1192.749984741211" y="135.5" fill="red" text-anchor="middle">boost_enable_shared_from_this&lt;T&gt;</text></g><path d="M939.0416564941406,190L939.0416564941406,207.66666666666666C939.0416564941406,225.33333333333334,939.0416564941406,260.6666666666667,927.4117296129983,293.2916666666667C915.7818027318559,325.9166666666667,892.5219489695713,355.8333333333333,880.8920220884289,370.7916666666667L869.2620952072866,385.75" id="edge967" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="915.5498046875" y="287.033447265625" width="42.266666412353516" height="17"></rect><text class="label" x="936.6831770456546" y="299.03346032273635" fill="red" text-anchor="middle">contains</text></g><path d="M3119.6916580200195,482L3119.6916580200195,486.1666666666667C3119.6916580200195,490.3333333333333,3119.6916580200195,498.6666666666667,3119.6916580200195,515.125C3119.6916580200195,531.5833333333334,3119.6916580200195,556.1666666666666,3119.6916580200195,568.4583333333334L3119.6916580200195,580.75" id="edge968" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="3098.558349609375" y="519.375" width="42.266666412353516" height="17"></rect><text class="label" x="3119.6916580200195" y="531.375" fill="red" text-anchor="middle">contains</text></g><path d="M2630.2333374023438,170L2630.2333374023438,191C2630.2333374023438,212,2630.2333374023438,254,2630.2333374023438,289.9583333333333C2630.2333374023438,325.9166666666667,2630.2333374023438,355.8333333333333,2630.2333374023438,370.7916666666667L2630.2333374023438,385.75" id="edge969" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="2609.10009765625" y="265.875" width="42.266666412353516" height="17"></rect><text class="label" x="2630.2333374023438" y="277.875" fill="red" text-anchor="middle">contains</text></g><path d="M3630.8916625976562,661L3630.8916625976562,665.1666666666666C3630.8916625976562,669.3333333333334,3630.8916625976562,677.6666666666666,3722.5555488268533,696.4891218283142C3814.2194350560508,715.3115769899617,3997.547207514445,744.6231539799234,4089.2110937436423,759.2789424749043L4180.874979972839,773.9347309698851" id="edge970" class="relation" marker-end="url(#extensionEnd)"></path><path d="M1791.4666595458984,29.75406153852913L1795.3555484347871,28.295051282107607C1799.244437323676,26.836041025686086,1807.0222151014539,23.918020512843043,1811.8833262125652,22.45901025642152C1816.744437323676,21,1818.6888817681208,21,1820.6333262125652,40.083333333333336C1822.5777706570098,59.166666666666664,1824.522215101454,97.33333333333333,1824.5222151014543,135.5C1824.522215101454,173.66666666666666,1822.5777706570098,211.83333333333334,1820.6333262125652,230.91666666666666C1818.6888817681208,250,1816.744437323676,250,1811.8833262125652,248.54098974357848C1807.0222151014539,247.08197948715693,1799.244437323676,244.1639589743139,1795.3555484347871,242.7049487178924L1791.4666595458984,241.24593846147087" id="edge971" class="relation" marker-end="url(#extensionEnd)"></path><g class="classLabel"><rect class="box" x="1743.5833740234375" y="123.5" width="165.76666259765625" height="17"></rect><text class="label" x="1826.4666595458984" y="135.49999999999997" fill="red" text-anchor="middle">boost_enable_shared_from_this&lt;T&gt;</text></g><path d="M1787.6958918526907,250L1806.3160202466067,257.6666666666667C1824.9361486405226,265.3333333333333,1862.1764054283547,280.6666666666667,1774.352088212224,304.7251381911669C1686.5277709960938,328.78360971566707,1473.638879776001,361.5672194313341,1367.1944341659546,377.95902428916764L1260.7499885559082,394.35082914700115" id="edge972" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="1618.6563720703125" y="323.9809875488281" width="42.266666412353516" height="17"></rect><text class="label" x="1639.7896513420255" y="335.98099923092843" fill="red" text-anchor="middle">contains</text></g><path d="M1313.2223931190752,250L1300.0728258190372,257.6666666666667C1286.9232585189993,265.3333333333333,1260.6241239189235,280.6666666666667,1295.4245564281507,302.4130503380763C1330.224988937378,324.15943400948595,1426.1249885559082,352.3188680189719,1474.0749883651733,366.39858502371493L1522.0249881744385,380.4783020284579" id="edge973" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="1313.2275390625" y="313.37384033203125" width="42.266666412353516" height="17"></rect><text class="label" x="1334.3607908588538" y="325.373843203932" fill="red" text-anchor="middle">contains</text></g><path d="M3974.2249908447266,636L3974.2249908447266,644.3333333333334C3974.2249908447266,652.6666666666666,3974.2249908447266,669.3333333333334,4008.666655699412,688.6096985572435C4043.1083205540976,707.8860637811539,4111.991650263469,729.7721275623077,4146.433315118154,740.7151594528846L4180.874979972839,751.6581913434615" id="edge974" class="relation" marker-end="url(#extensionEnd)"></path><path d="M4463.141642570496,723.1301177017359L4467.030531459385,721.1084314181131C4470.919420348274,719.0867451344906,4478.697198126051,715.0433725672452,4483.558309237163,713.0216862836227C4488.419420348274,711,4490.363864792717,711,4492.308309237163,725.25C4494.252753681606,739.5,4496.197198126051,768,4496.19719812605,796.5C4496.197198126051,825,4494.252753681606,853.5,4492.308309237163,867.75C4490.363864792717,882,4488.419420348274,882,4483.558309237163,879.9783137163773C4478.697198126051,877.9566274327548,4470.919420348274,873.9132548655094,4467.030531459385,871.8915685818869L4463.141642570496,869.8698822982641" id="edge975" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="4475.05810546875" y="784.5" width="46.16666793823242" height="17"></rect><text class="label" x="4498.141642570496" y="796.5" fill="red" text-anchor="middle">produces</text></g><path d="M5311.958323478699,210L5311.958323478699,224.33333333333334C5311.958323478699,238.66666666666666,5311.958323478699,267.3333333333333,5373.106239318848,296.9716285969293C5434.254155158997,326.60992386052527,5556.549986839294,357.2198477210506,5617.697902679443,372.52480965131326L5678.845818519592,387.8297715815759" id="edge976" class="relation" marker-end="url(#extensionEnd)"></path><path d="M5689.557239796885,190L5696.874780398415,207.66666666666666C5704.192320999947,225.33333333333334,5718.827402203006,260.6666666666667,5726.144942804537,291.8333333333333C5733.462483406067,323,5733.462483406067,350,5733.462483406067,363.5L5733.462483406067,377" id="edge977" class="relation" marker-end="url(#extensionEnd)"></path><path d="M5635.331721579174,190L5625.071571259979,207.66666666666666C5614.811420940783,225.33333333333334,5594.291120302393,260.6666666666667,5584.030969983197,293.2916666666667C5573.7708196640015,325.9166666666667,5573.7708196640015,355.8333333333333,5573.7708196640015,370.7916666666667L5573.7708196640015,385.75" id="edge978" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="5558.93115234375" y="269.805419921875" width="46.16666793823242" height="17"></rect><text class="label" x="5582.014513020264" y="281.8054143363934" fill="red" text-anchor="middle">produces</text></g><path d="M5357.995814323425,646L5357.995814323425,652.6666666666666C5357.995814323425,659.3333333333334,5357.995814323425,672.6666666666666,5208.853452364604,695.241084100503C5059.711090405782,717.8155015343394,4761.426366488139,749.6310030686786,4612.284004529317,765.5387538358483L4463.141642570496,781.446504603018" id="edge979" class="relation" marker-end="url(#extensionEnd)"></path><path d="M3323.1166610717773,641L3323.1166610717773,648.5C3323.1166610717773,656,3323.1166610717773,671,3466.076380888621,694.3145771231544C3609.036100705465,717.629154246309,3894.955540339152,749.2583084926179,4037.915260155996,765.0728856157725L4180.874979972839,780.887462738927" id="edge980" class="relation" marker-end="url(#extensionEnd)"></path><path d="M4304.8647229924545,646L4309.519906184304,652.6666666666666C4314.175089376155,659.3333333333334,4323.485455759855,672.6666666666666,4327.733870065133,683.5C4331.9822843704105,694.3333333333334,4331.168746597267,702.6666666666666,4330.761977710695,706.8333333333334L4330.355208824123,711" id="edge981" class="relation" marker-end="url(#extensionEnd)"></path><path d="M4193.955226067058,646L4183.67310327569,652.6666666666666C4173.3909804843215,659.3333333333334,4152.826734901584,672.6666666666666,4087.8904458885972,696.1273975067132C4022.9541568756104,719.5881283467597,3913.645824432373,753.1762566935195,3858.9916582107544,769.9703208668993L3804.3374919891357,786.7643850402792" id="edge982" class="relation" marker-end="url(#aggregationEnd)"></path><g class="classLabel"><rect class="box" x="3982.307861328125" y="713.5840454101562" width="42.266666412353516" height="17"></rect><text class="label" x="4003.4411202715064" y="725.5840699483207" fill="red" text-anchor="middle">contains</text></g><path d="M5976.137482643127,461L5976.137482643127,468.6666666666667C5976.137482643127,476.3333333333333,5976.137482643127,491.6666666666667,5991.294217543007,503.5C6006.450952442887,515.3333333333334,6036.764422242646,523.6666666666666,6051.921157142526,527.8333333333334L6067.077892042405,532" id="edge983" class="relation" marker-end="url(#extensionEnd)"></path><path d="M6301.7041482925415,461L6301.7041482925415,468.6666666666667C6301.7041482925415,476.3333333333333,6301.7041482925415,491.6666666666667,6301.7041482925415,503.5C6301.7041482925415,515.3333333333334,6301.7041482925415,523.6666666666666,6301.7041482925415,527.8333333333334L6301.7041482925415,532" id="edge984" class="relation" marker-end="url(#extensionEnd)"></path><path d="M6624.229142189026,461L6624.229142189026,468.6666666666667C6624.229142189026,476.3333333333333,6624.229142189026,491.6666666666667,6609.214012119358,503.5C6594.198882049688,515.3333333333334,6564.16862191035,523.6666666666666,6549.153491840682,527.8333333333334L6534.1383617710135,532" id="edge985" class="relation" marker-end="url(#extensionEnd)"></path><path d="M6945.6457986831665,461L6945.6457986831665,468.6666666666667C6945.6457986831665,476.3333333333333,6945.6457986831665,491.6666666666667,6882.199967384338,508.15152656217714C6818.75413608551,524.6363864576875,6691.862473487854,542.2727729153752,6628.416642189026,551.090966144219L6564.970810890198,559.9091593730628" id="edge986" class="relation" marker-end="url(#extensionEnd)"></path><path d="M7270.112458229065,461L7270.112458229065,468.6666666666667C7270.112458229065,476.3333333333333,7270.112458229065,491.6666666666667,7152.588850339253,510.1948292521649C7035.065242449443,528.722991837663,6800.01802666982,550.4459836753261,6682.494418780009,561.3074795941577L6564.970810890198,572.1689755129893" id="edge987" class="relation" marker-end="url(#extensionEnd)"></path></svg>
